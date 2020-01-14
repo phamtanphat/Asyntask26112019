@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        new Xulydatientrinh().execute();
     }
 
     //1 : Params -> Tham số đầu vào của doInbackground
